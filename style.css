@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(135deg, #548687, #2f4f4f);
+    text-align: center;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 6vmin;
+    padding-top: 3vmin;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+}
+
+.container {
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    background-color: #ffffc7;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.5);
+    font-size: 8vmin;
+    font-weight: bold;
+    cursor: pointer;
+
+    transition: transform 0.15s ease,
+                box-shadow 0.15s ease;
+}
+
+.box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 1.5rem rgba(255,255,255,0.4);
+}
+
+.O {
+    color: #16a34a;
+    text-shadow: 0 0 10px rgba(22,163,74,0.4);
+}
+
+.X {
+    color: #dc2626;
+    text-shadow: 0 0 10px rgba(220,38,38,0.4);
+}
+
+#reset-btn,
+#new-btn {
+    padding: 1rem 1.5rem;
+    font-size: 1.25rem;
+    background-color: #111827;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+
+    transition: transform 0.2s ease,
+                background-color 0.2s ease,
+                box-shadow 0.2s ease;
+}
+
+#reset-btn:hover,
+#new-btn:hover {
+    background-color: #000000;
+    transform: scale(1.05);
+    box-shadow: 0 0 1rem rgba(0,0,0,0.5);
+}
+
+#reset-btn:active,
+#new-btn:active {
+    transform: scale(0.95);
+}
+
+#msg {
+    color: #ffffc7;
+    font-size: 5vmin;
+    font-weight: bold;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+}
+
+.msg-container {
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.hide {
+    display: none;
+}
+
+footer {
+    position: fixed;
+    bottom: 15px;
+    width: 100%;
+
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+
+    color: #38bdf8;
+
+    text-shadow:
+        0 0 5px rgba(56, 189, 248, 0.6),
+        0 0 15px rgba(56, 189, 248, 0.3);
+
+    opacity: 0.9;
+}

@@ -1,0 +1,5 @@
+HTML5
+CSS3
+JavaScript
+Any modern web browser
+No external libraries or frameworks
