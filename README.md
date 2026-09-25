@@ -8,12 +8,6 @@ This project takes the classic two-player Tic Tac Toe game and gives it a modern
 
 ---
 
-## 📸 Game Preview
-
-![Tic Tac Toe Game](https://github.com/najeebahmadns159-arch/Tic-Tac-Toe-Game/edit/main/README.md#:~:text=WhatsApp%20Image-,2026%2D09%2D26,-at%2000.59.58.jpeg)
-
----
-
 ## ✨ Features
 
 ### 🎯 Classic Two-Player Gameplay
